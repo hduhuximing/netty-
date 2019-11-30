@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c6f496c-3589-4c45-b499-f38179fa2faa" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NettyPro" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NettyRuntime.availableProcessors()</find>
+      <find>children = new EventExecutor[nThreads]</find>
+      <find>MultithreadEventExecutorGroup</find>
+      <find>protected MultithreadEventExecutorGroup(int nThreads, Executor executor,</find>
+      <find>public ChannelFuture bind(SocketAddress localAddress)</find>
+      <find>ChannelPipeline addLast</find>
+      <find>public final ChannelPipeline addLast(EventExecutorGroup group, String name, ChannelHandler handler)</find>
+      <find>protected void doBind(SocketAddress localAddress) throws Exception</find>
+      <find>(PlatformDependent.javaVersion() &gt;= 7</find>
+      <find>javaChannel().bind(localAddress, config.getBacklog());</find>
+      <find>channel = channelFactory.newChannel()</find>
+      <find>protected MultithreadEventExecutorGroup(int nThreads, Executor executor</find>
+      <find>if ((readyOps &amp; (SelectionKey.OP_READ | SelectionKey.OP_ACCEPT)) != 0 || readyOps == 0)</find>
+      <find>childGroup.register(child).addListener(new ChannelFutureListener()</find>
+      <find>processSelectedKey(SelectionKey k, AbstractNioChannel ch)</find>
+      <find>final SelectionKey selectionKey = this.selectionKey;</find>
+      <find>newCtx = newContext(group, filterName(name, handler), handler);</find>
+      <find>pipeline = newChannelPipeline()</find>
+      <find>private void write(Object msg, boolean flush, ChannelPromise promise) {</find>
+      <find>final Object m = next.pipeline.touch(ObjectUtil.checkNotNull(msg, &quot;msg&quot;), next);</find>
+      <find>private void write(Object msg, boolean flush, ChannelPromise promise</find>
+      <find>static void invokeChannelRead(final AbstractChannelHandlerContext next, Object msg)</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Administrator\IdeaProjects\NettyPro\lib\netty-all-4.1.20.Final-sources.jar!\io\netty</dir>
+    </dirStrings>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UJv9MMDD8Ur8riL9gje4zrD7LA" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Callable&#9;PSI&#9;JAVA://java.util.concurrent.Callable&#10;SingleThreadEventExecutor&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java&#10;ScheduledExecutorService&#9;FILE&#9;jar://D:/program/jdk8.0/src.zip!/java/util/concurrent/ScheduledExecutorService.java&#10;Executor&#9;PSI&#9;JAVA://java.util.concurrent.Executor&#10;EventLoop&#9;PSI&#9;JAVA://io.netty.channel.EventLoop&#10;Selector&#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;WriteTimeoutHandler&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/timeout/WriteTimeoutHandler.java&#10;ReadTimeoutHandler&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/timeout/ReadTimeoutHandler.java&#10;IdleStateHandler&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java&#10;DefaultChannel&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;DefaultChannelPipeline&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;TailContext&#9;PSI&#9;JAVA://io.netty.channel.DefaultChannelPipeline.TailContext&#10;HeadContext&#9;PSI&#9;JAVA://io.netty.channel.DefaultChannelPipeline.HeadContext&#10;ChannelDuplexHandler &#9;PSI&#9;JAVA://io.netty.channel.ChannelDuplexHandler&#10;ChannelHandler &#9;PSI&#9;JAVA://io.netty.channel.ChannelHandler&#10;ChannelHandlerContext&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java&#10;channelpipel&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelPipeline.java&#10;ChannelPipeline&#9;PSI&#9;JAVA://io.netty.channel.ChannelPipeline&#10;SelectionKey&#9;FILE&#9;jar://D:/program/jdk8.0/src.zip!/java/nio/channels/SelectionKey.java&#10;Selection&#9;PSI&#9;JAVA://java.nio.channels.SelectionKey&#10;DEFAULT_EVENT_LOOP_THREADS&#9;PSI&#9;JAVA://io.netty.channel.MultithreadEventLoopGroup#DEFAULT_EVENT_LOOP_THREADS&#10;Zlib&#9;PSI&#9;JAVA://io.netty.handler.codec.compression.ZlibEncoder&#10;ByteToMessage&#9;PSI&#9;JAVA://io.netty.handler.codec.ByteToMessageDecoder&#10;WebSocketFr&#9;PSI&#9;JAVA://io.netty.handler.codec.http.websocketx.WebSocketFrame&#10;EventLoopGroup&#9;FILE&#9;jar://C:/Users/Administrator/IdeaProjects/NettyPro/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/EventLoopGroup.java&#10;Channelhandler&#9;PSI&#9;JAVA://io.netty.channel.ChannelHandler&#10;ChannelFuture&#9;PSI&#9;JAVA://io.netty.channel.ChannelFuture&#10;Channel&#9;FILE&#9;jar://D:/program/jdk8.0/src.zip!/java/nio/channels/Channel.java&#10;SocketChannel&#9;FILE&#9;jar://D:/program/jdk8.0/jre/lib/rt.jar!/sun/nio/ch/ServerSocketChannelImpl.class&#10;ServerSocketChanne&#9;FILE&#9;jar://D:/program/jdk8.0/jre/lib/rt.jar!/sun/nio/ch/ServerSocketChannelImpl.class&#10;Selector &#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;MappedByte&#9;PSI&#9;JAVA://java.nio.MappedByteBuffer&#10;Buffer&#9;FILE&#9;file://C:/Users/Administrator/IdeaProjects/NettyPro/src/main/java/com/atguigu/nio/NIOByteBufferPutGet.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.24803922" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\NettyPro\src\main\java\com\atguigu\netty\source\echo2" />
+      <recent name="C:\Users\Administrator\IdeaProjects\NettyPro\src\main\java\com\atguigu\netty\source" />
+      <recent name="C:\Users\Administrator\IdeaProjects\NettyPro\src\main\java\com\atguigu\netty\protocoltcp" />
+      <recent name="C:\Users\Administrator\IdeaProjects\NettyPro\src\main\java\com\atguigu\netty\tcp" />
+      <recent name="C:\Users\Administrator\IdeaProjects\NettyPro\src\main\java\com\atguigu\netty\codec2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.netty.tcp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\NettyPro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ReadOnlyBuffer">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.nio.BasicBuffer" />
+      <module name="NettyPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOFileChannel01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.nio.NIOFileChannel01" />
+      <module name="NettyPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOFileChannel02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.nio.NIOFileChannel02" />
+      <module name="NettyPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOFileChannel03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.nio.NIOFileChannel03" />
+      <module name="NettyPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadOnlyBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.nio.ReadOnlyBuffer" />
+      <module name="NettyPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BasicBuffer" />
+      <item itemvalue="Application.NIOFileChannel01" />
+      <item itemvalue="Application.NIOFileChannel02" />
+      <item itemvalue="Application.NIOFileChannel03" />
+      <item itemvalue="Application.ReadOnlyBuffer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReadOnlyBuffer" />
+        <item itemvalue="Application.NIOFileChannel03" />
+        <item itemvalue="Application.NIOFileChannel02" />
+        <item itemvalue="Application.NIOFileChannel01" />
+        <item itemvalue="Application.BasicBuffer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c6f496c-3589-4c45-b499-f38179fa2faa" name="Default" comment="" />
+      <created>1571552873994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571552873994</updated>
+      <workItem from="1571552878987" duration="8125000" />
+      <workItem from="1571618183689" duration="263000" />
+      <workItem from="1571620469781" duration="1424000" />
+      <workItem from="1571622276778" duration="4336000" />
+      <workItem from="1571628250602" duration="5316000" />
+      <workItem from="1571639015635" duration="4804000" />
+      <workItem from="1571645047896" duration="1437000" />
+      <workItem from="1571646746256" duration="1470000" />
+      <workItem from="1571649797909" duration="2969000" />
+      <workItem from="1571652650284" duration="926000" />
+      <workItem from="1571705248825" duration="34000" />
+      <workItem from="1571705925632" duration="3335000" />
+      <workItem from="1571713482774" duration="5690000" />
+      <workItem from="1571718577558" duration="163000" />
+      <workItem from="1571718581451" duration="184000" />
+      <workItem from="1571718560656" duration="660000" />
+      <workItem from="1571719017292" duration="1053000" />
+      <workItem from="1571732025717" duration="3147000" />
+      <workItem from="1571833626170" duration="2337000" />
+      <workItem from="1571886760616" duration="7118000" />
+      <workItem from="1571908958119" duration="126000" />
+      <workItem from="1571909119296" duration="149000" />
+      <workItem from="1571909319115" duration="7649000" />
+      <workItem from="1571969322446" duration="8882000" />
+      <workItem from="1571984577787" duration="1797000" />
+      <workItem from="1571986813785" duration="1136000" />
+      <workItem from="1571990319840" duration="10329000" />
+      <workItem from="1572053946806" duration="2768000" />
+      <workItem from="1572058434455" duration="2058000" />
+      <workItem from="1572061726823" duration="1606000" />
+      <workItem from="1572063578917" duration="1554000" />
+      <workItem from="1572070367983" duration="5337000" />
+      <workItem from="1572077223254" duration="2854000" />
+      <workItem from="1572081234400" duration="62000" />
+      <workItem from="1572081559006" duration="5271000" />
+      <workItem from="1572182124576" duration="807000" />
+      <workItem from="1572184328868" duration="961000" />
+      <workItem from="1572185540236" duration="447000" />
+      <workItem from="1572186168370" duration="3432000" />
+      <workItem from="1572226807611" duration="9510000" />
+      <workItem from="1572248589814" duration="2566000" />
+      <workItem from="1572251162552" duration="2260000" />
+      <workItem from="1572253699098" duration="4884000" />
+      <workItem from="1572311255929" duration="3805000" />
+      <workItem from="1572316617936" duration="205000" />
+      <workItem from="1572316376304" duration="9087000" />
+      <workItem from="1572334315383" duration="8863000" />
+      <workItem from="1572396118591" duration="5211000" />
+      <workItem from="1572402944524" duration="743000" />
+      <workItem from="1572403012821" duration="16225000" />
+      <workItem from="1572438431824" duration="3675000" />
+      <workItem from="1572655735885" duration="6648000" />
+      <workItem from="1572672431722" duration="620000" />
+      <workItem from="1572673452672" duration="2663000" />
+      <workItem from="1572507962094" duration="2953000" />
+      <workItem from="1572510401121" duration="1693000" />
+      <workItem from="1572669726673" duration="606000" />
+      <workItem from="1575087365852" duration="5605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-method">
+          <url>jar://D:/program/jdk8.0/src.zip!/java/nio/IntBuffer.java</url>
+          <line>559</line>
+          <properties class="java.nio.IntBuffer" method="get">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/codec/MessageToByteEncoder.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>475</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java</url>
+          <line>479</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atguigu/netty/heartbeat/MyServerHandler.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java</url>
+          <line>513</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java</url>
+          <line>548</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java</url>
+          <line>863</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
+          <line>450</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java</url>
+          <line>885</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
+          <line>458</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>352</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>347</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NettyPro$ReadOnlyBuffer.ic" NAME="ReadOnlyBuffer Coverage Results" MODIFIED="1575097659110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.atguigu.nio.*</FILTER>
+    </SUITE>
+  </component>
+</project>
