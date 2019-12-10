@@ -8,6 +8,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.ChannelPipeline;
 import io.netty.util.CharsetUtil;
 
+import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /*
@@ -24,6 +25,15 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
      */
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+//        ctx.channel().eventLoop().execute(() -> {
+//            try{
+//                Thread.sleep(5);
+//                ctx.writeAndFlush("你好");
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//                System.out.println("报错了"+e.getMessage());
+//            }
+//        });
 
 /*
 
@@ -100,7 +110,7 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
 
         //writeAndFlush 是 write + flush
-        //将数据写入到缓存，并刷新
+        //将数据写入到缓存刷先到管道
         //一般讲，我们对这个发送的数据进行编码
         ctx.writeAndFlush(Unpooled.copiedBuffer("hello, 客户端~(>^ω^<)喵1", CharsetUtil.UTF_8));
     }

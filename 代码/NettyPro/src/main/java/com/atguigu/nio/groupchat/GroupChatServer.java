@@ -16,9 +16,7 @@ public class GroupChatServer {
     //构造器
     //初始化工作
     public GroupChatServer() {
-
         try {
-
             //得到选择器
             selector = Selector.open();
             //ServerSocketChannel
@@ -29,25 +27,19 @@ public class GroupChatServer {
             listenChannel.configureBlocking(false);
             //将该listenChannel 注册到selector
             listenChannel.register(selector, SelectionKey.OP_ACCEPT);
-
         }catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     //监听
     public void listen() {
-
         System.out.println("监听线程: " + Thread.currentThread().getName());
         try {
-
             //循环处理
             while (true) {
-
                 int count = selector.select();
                 if(count > 0) {//有事件处理
-
                     //遍历得到selectionKey 集合
                     Iterator<SelectionKey> iterator = selector.selectedKeys().iterator();
                     while (iterator.hasNext()) {

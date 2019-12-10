@@ -13,8 +13,7 @@ import java.util.Arrays;
 public class ScatteringAndGatheringTest {
     public static void main(String[] args) throws Exception {
 
-        //使用 ServerSocketChannel 和 SocketChannel 网络
-
+        //使用 ServerSocketChannel 和 SocketChannel 网络通道
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         InetSocketAddress inetSocketAddress = new InetSocketAddress(7000);
 
@@ -34,12 +33,15 @@ public class ScatteringAndGatheringTest {
 
             int byteRead = 0;
 
-            while (byteRead < messageLength ) {
+            while (byteRead < messageLength) {
                 long l = socketChannel.read(byteBuffers);
                 byteRead += l; //累计读取的字节数
                 System.out.println("byteRead=" + byteRead);
                 //使用流打印, 看看当前的这个buffer的position 和 limit
-                Arrays.asList(byteBuffers).stream().map(buffer -> "postion=" + buffer.position() + ", limit=" + buffer.limit()).forEach(System.out::println);
+                Arrays.asList(byteBuffers)
+                        .stream()
+                        .map(buffer -> "postion=" + buffer.position() + ", limit=" + buffer.limit())
+                        .forEach(System.out::println);
             }
 
             //将所有的buffer进行flip
@@ -53,14 +55,10 @@ public class ScatteringAndGatheringTest {
             }
 
             //将所有的buffer 进行clear
-            Arrays.asList(byteBuffers).forEach(buffer-> {
-                buffer.clear();
-            });
+            Arrays.asList(byteBuffers).forEach(buffer -> buffer.clear());
 
             System.out.println("byteRead:=" + byteRead + " byteWrite=" + byteWirte + ", messagelength" + messageLength);
         }
-
-
 
 
     }

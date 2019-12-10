@@ -21,12 +21,9 @@ public class NettyServer {
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup(); //8
 
-
-
         try {
             //创建服务器端的启动对象，配置参数
             ServerBootstrap bootstrap = new ServerBootstrap();
-
             //使用链式编程来进行设置
             bootstrap.group(bossGroup, workerGroup) //设置两个线程组
                     .channel(NioServerSocketChannel.class) //使用NioSocketChannel 作为服务器的通道实现
@@ -37,12 +34,11 @@ public class NettyServer {
                         //给pipeline 设置处理器
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
-
-
                             ChannelPipeline pipeline = ch.pipeline();
                             //在pipeline加入ProtoBufDecoder
                             //指定对哪种对象进行解码
-                            pipeline.addLast("decoder", new ProtobufDecoder(StudentPOJO.Student.getDefaultInstance()));
+                            pipeline.addLast("decoder",
+                                    new ProtobufDecoder(StudentPOJO.Student.getDefaultInstance()));
                             pipeline.addLast(new NettyServerHandler());
                         }
                     }); // 给我们的workerGroup 的 EventLoop 对应的管道设置处理器
@@ -69,7 +65,7 @@ public class NettyServer {
 
             //对关闭通道进行监听
             cf.channel().closeFuture().sync();
-        }finally {
+        } finally {
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
         }

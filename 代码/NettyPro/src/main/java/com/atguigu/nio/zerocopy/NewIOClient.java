@@ -20,6 +20,7 @@ public class NewIOClient {
 
         //在linux下一个transferTo 方法就可以完成传输
         //在windows 下 一次调用 transferTo 只能发送8m , 就需要分段传输文件, 而且要主要
+        //用Math.ceil向上取整进行分段落循环
         //传输时的位置 =》 课后思考...
         //transferTo 底层使用到零拷贝
         long transferCount = fileChannel.transferTo(0, fileChannel.size(), socketChannel);

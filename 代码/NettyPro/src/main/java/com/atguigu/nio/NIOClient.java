@@ -17,7 +17,7 @@ public class NIOClient {
         if (!socketChannel.connect(inetSocketAddress)) {
 
             while (!socketChannel.finishConnect()) {
-                System.out.println("因为连接需要时间，客户端不会阻塞，可以做其它工作..");
+                System.out.println("因为连接需要 时间，客户端不会阻塞，可以做其它工作..");
             }
         }
 

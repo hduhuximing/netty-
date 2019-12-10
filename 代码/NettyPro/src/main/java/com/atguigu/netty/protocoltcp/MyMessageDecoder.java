@@ -11,11 +11,10 @@ public class MyMessageDecoder extends ReplayingDecoder<Void> {
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
         System.out.println("MyMessageDecoder decode 被调用");
         //需要将得到二进制字节码-> MessageProtocol 数据包(对象)
+        //通过头的len属性进行读取后续content内容
         int length = in.readInt();
-
         byte[] content = new byte[length];
         in.readBytes(content);
-
         //封装成 MessageProtocol 对象，放入 out， 传递下一个handler业务处理
         MessageProtocol messageProtocol = new MessageProtocol();
         messageProtocol.setLen(length);

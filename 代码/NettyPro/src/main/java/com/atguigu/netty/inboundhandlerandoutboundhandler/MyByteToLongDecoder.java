@@ -16,10 +16,9 @@ public class MyByteToLongDecoder extends ByteToMessageDecoder {
      * @param ctx 上下文对象
      * @param in 入站的 ByteBuf
      * @param out List 集合，将解码后的数据传给下一个handler
-     * @throws Exception
      */
     @Override
-    protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
+    protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out){
 
         System.out.println("MyByteToLongDecoder 被调用");
         //因为 long 8个字节, 需要判断有8个字节，才能读取一个long
